@@ -1,10 +1,8 @@
-FROM n8nio/n8n:latest
-
-ENV N8N_HOST=0.0.0.0
-ENV N8N_PORT=8080
-
-USER node
-
-EXPOSE 8080
-
-CMD ["n8n", "start"]
+{
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "deploy": {
+    "startCommand": "n8n start"
+  }
+}
