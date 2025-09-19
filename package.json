@@ -1,0 +1,18 @@
+{
+  "name": "horror-video-automation",
+  "version": "1.0.0",
+  "description": "AI Horror Video Generator using n8n",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start",
+    "dev": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
